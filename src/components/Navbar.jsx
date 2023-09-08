@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link to="/">
           <Button>Find Events</Button>
         </Link>
-        <Link to="/">
+        <Link to="create">
           <Button>Create Events</Button>
         </Link>
         <Link to="login">

@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name_event": "AFA ID 2023",
+      "location": "BSD, Tangerang",
+      "price": 50000,
+      "date": "2023-04-23"
+    },
+    {
+      "id": 2,
+      "name_event": "Comifuro",
+      "location": "Cakung, Jakarta Timur",
+      "price": 81000,
+      "date": "2023-09-23"
+    }
+  ],
+  "discountCode": {
+    "code": "tes",
+    "remainingUses": 8,
+    "discount": 0.9
+  }
+}

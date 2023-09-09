@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "firstName": "rais",
+      "lastName": "rahayu",
+      "email": "rahayu@gmail.com",
+      "password": "12345667899",
+      "id": 1
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@gmail.com",
+      "password": "password",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@gmail.com",
+      "password": "password",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "firstName": "dfasfafa",
+      "lastName": "affsafas",
+      "email": "watch21dog@gmail.com",
+      "password": "affasfasfasfa",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 5
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 6
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 7
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 8
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 9
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 10
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 11
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 12
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 13
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 14
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 15
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 16
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 17
+    },
+    {
+      "email": "rais.rahayu@gmail.com",
+      "password": "adasdadasds",
+      "id": 18
+    }
+  ]
+}

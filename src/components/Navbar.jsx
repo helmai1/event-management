@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <Flex as="nav" p="10px" alignItems="center">
       <Heading as="h1" color="orange.400">
-        EM APP
+        <Link to="/">EM APP</Link>
       </Heading>
       <Spacer />
       <HStack spacing="20px">

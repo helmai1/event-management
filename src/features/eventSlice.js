@@ -15,6 +15,18 @@ export const fetchEvents = createAsyncThunk("event/fetchEventsStatus",
         }
     })
 
+export const postEvents = createAsyncThunk("event/postEventsStatus",
+    async (data) => {
+        try {
+            const response = await eventAPI.postEvents(data)
+            return response.data
+        } catch (error) {
+            return error.message;
+        }
+    }
+
+)
+
 const eventSlice = createSlice({
     name: "event",
     initialState,
@@ -23,6 +35,7 @@ const eventSlice = createSlice({
         builder.addCase(fetchEvents.fulfilled, (state, action) => {
             state.eventList = action.payload;
         })
+        builder.addCase(postEvents.fulfilled, () => {})
     }
 })
 

@@ -33,5 +33,15 @@
     "code": "tes",
     "remainingUses": 5,
     "discount": 0.9
-  }
+  },
+  "users": [
+    {
+      "firstName": "inisignup",
+      "lastName": "1",
+      "email": "signup@mail.com",
+      "password": "signuup",
+      "role": "user",
+      "id": 1
+    }
+  ]
 }

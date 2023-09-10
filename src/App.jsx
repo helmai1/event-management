@@ -3,7 +3,6 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 // layouts and pages
 import RootLayout from './layouts/RootLayout';
 import Dashboard from './pages/Dashboard';
-import CreateEvent from './pages/eventorganizer/CreateEvent';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Transaction from './pages/user/Transaction';

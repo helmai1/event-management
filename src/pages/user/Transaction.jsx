@@ -77,20 +77,11 @@ export default function Transaction() {
   const totalPrice = quantity * posts.price;
   // Handle reservation button click
   const handleReservation = () => {
-    window.alert(`Event : ${posts.name_event}, with price : ${totalPrice} Reserved successfully!`);
+    window.alert(`Event : ${posts.event_name}, with price : ${totalPrice} Reserved successfully!`);
     window.alert('Have fun! You Refreshed to Home!');
     window.location.href = 'http://localhost:5173/';
   };
 
-  const updateEventPrice = (eventId, newPrice) => {
-    Axios.patch(`http://localhost:3000/events/${eventId}`, { price: newPrice })
-      .then((response) => {
-        console.log('Event price updated successfully:', response.data);
-      })
-      .catch((error) => {
-        console.error('Error updating event price:', error);
-      });
-  };
   //apply Discount
   const applyDiscount = () => {
     if (remainingUses > 0 && discountCode === discountCodeFromServer) {
@@ -107,7 +98,7 @@ export default function Transaction() {
       });
 
       // Update the event's price in the database
-      updateEventPrice(id, discountedPrice);
+
       alert('Discount Applied!');
     } else {
       setDiscountApplied(false);
@@ -132,7 +123,7 @@ export default function Transaction() {
               </Thead>
               <Tbody>
                 <Tr>
-                  <Td>{posts.name_event}</Td>
+                  <Td>{posts.event_name}</Td>
                   <Td>{posts.location}</Td>
                   <Td isNumeric>{posts.price}</Td>
                   <Td>{posts.date}</Td>

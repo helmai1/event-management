@@ -3,9 +3,11 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 // layouts and pages
 import RootLayout from './layouts/RootLayout';
 import Dashboard from './pages/Dashboard';
+import CreateEvent from './pages/eventorganizer/CreateEvent';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Transaction from './pages/user/Transaction';
+import EventCreation from './pages/organizers/eventCreation';
 
 // router and routes
 const router = createBrowserRouter(
@@ -13,8 +15,9 @@ const router = createBrowserRouter(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Dashboard />} />
       <Route path="register" element={<Register />} />
+      <Route path="create" element={<EventCreation />} />
       <Route path="login" element={<Login />} />
-      <Route path="transaction" element={<Transaction />} />
+      <Route path="transaction/:id" element={<Transaction />} />
     </Route>
   )
 );

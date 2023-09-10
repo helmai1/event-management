@@ -1,0 +1,37 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "event_name": "AFA ID 2023",
+      "location": "BSD, Tangerang",
+      "price": 50000,
+      "date": "2023-04-23"
+    },
+    {
+      "id": 1,
+      "event_name": "Comifuro",
+      "location": "Cakung, Jakarta Timur",
+      "price": 65610,
+      "date": "2023-09-23"
+    },
+    {
+      "event_name": "Makan Bareng Santai",
+      "location": "Bali",
+      "date": "2023-04-24",
+      "price": "30000",
+      "id": 2
+    },
+    {
+      "event_name": "Fujii Kaze In Jakarta",
+      "location": "Kasablanka Hall Jakarta",
+      "date": "2023-07-07",
+      "price": "1000000",
+      "id": 3
+    }
+  ],
+  "discountCode": {
+    "code": "tes",
+    "remainingUses": 5,
+    "discount": 0.9
+  }
+}
